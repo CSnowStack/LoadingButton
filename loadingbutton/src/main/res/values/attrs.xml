@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingButton">
+        <attr name="lbtn_text" format="string"/>
+        <attr name="lbtn_textSize" format="dimension"/>
+        <attr name="lbtn_textColor" format="color"/>
+        <attr name="lbtn_backgroundColor" format="color"/>
+        <attr name="lbtn_loadingCircleColor" format="color"/>
+        <attr name="lbtn_loadingFailedReset" format="boolean"/>
+        <attr name="lbtn_loadingSuccessReset" format="boolean"/>
+    </declare-styleable>
+</resources>
