@@ -1,12 +1,10 @@
 # LoadingButton
 a simple animattion
 
-预览
-
+## 预览
 ![MSearchView](https://github.com/CSnowStack/LoadingButton/blob/master/imgs/c.gif)
 
-Attributes
-
+## Attributes
 name | format | description
 :--------|:--------:|:--------
 lbtn_text | string | 文字
@@ -18,12 +16,12 @@ lbtn_loadingFailedReset | boolean | 加载失败是否重置 默认 True
 lbtn_loadingSuccessReset | boolean | 加载成功是否重置 默认 False
 
 
- Add the dependency
+## Add the dependency
 ```java
 dependencies {
     compile 'com.cq.csnowstack:loadingbutton:1.0.0'
 }
 ```
-参考
+## 参考
 [徐宜生-PathMeasure之迷径追踪](http://blog.csdn.net/eclipsexys/article/details/51992473)
 [JeasonWong/ElemeShoppingView](https://github.com/JeasonWong/ElemeShoppingView)
