@@ -153,7 +153,7 @@ public class LoadingButton extends View {
             height = minHeight;
             if (width < minWidth)
                 width = minWidth;
-        } else {//宽度包裹
+        } else if(widthMode == MeasureSpec.AT_MOST){//宽度包裹
             width = minWidth;
             if (height < minHeight)
                 height = minHeight;
