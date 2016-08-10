@@ -311,7 +311,7 @@ public class LoadingButton extends View {
     private void drawBG(Canvas canvas) {
         canvas.drawArc(new RectF(mMoveWidth, 0, 2 * mRadius + mMoveWidth, mHeight), 90, 180, false, mPaintBg);
         canvas.drawRect(new RectF(mRadius + mMoveWidth, 0, mWidth - mRadius - mMoveWidth, mHeight), mPaintBg);
-        canvas.drawArc(new RectF(mWidth - 2 * mRadius - mMoveWidth, 0, mWidth - mMoveWidth, mHeight), 180, 270, false, mPaintBg);
+        canvas.drawArc(new RectF(mWidth - 2 * mRadius - mMoveWidth, 0, mWidth - mMoveWidth, mHeight), 270,180, false, mPaintBg);
     }
 
     //两边向中间移动的动画
